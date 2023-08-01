@@ -46,7 +46,7 @@ const App = () => {
       {/* Yukarıdaki metni projeye başladığınızda silin*/}
       {/* AramaÇubuğu ve Gönderiler'i render etmesi için buraya ekleyin */}
       <AramaCubugu />
-      <Gonderiler />
+      <Gonderiler pGonderiyiBegen={gonderiyiBegen} pGonderiler={gonderiler} />
       {/* Her bileşenin hangi proplara ihtiyaç duyduğunu kontrol edin, eğer ihtiyaç varsa ekleyin! */}
     </div>
   );
