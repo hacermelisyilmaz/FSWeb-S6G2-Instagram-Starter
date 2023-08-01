@@ -16,7 +16,7 @@ import sahteVeri from "./sahte-veri.js";
 
 const App = () => {
   // Gönderi nesneleri dizisini tutmak için "gonderiler" adlı bir state oluşturun, **sahteVeri'yi yükleyin**.
-  const [gonderiler] = useState(sahteVeri);
+  const [gonderiler, setGonderi] = useState(sahteVeri);
   // Artık sahteVeri'ye ihtiyacınız olmayacak.
   // Arama çubuğunun çalışması için , arama kriterini tutacak başka bir state'e ihtiyacımız olacak.
   const [arama, setArama] = useState(null);
