@@ -19,6 +19,7 @@ const App = () => {
   const [gonderiler] = useState(sahteVeri);
   // Artık sahteVeri'ye ihtiyacınız olmayacak.
   // Arama çubuğunun çalışması için , arama kriterini tutacak başka bir state'e ihtiyacımız olacak.
+  const [arama, setArama] = useState(null);
 
   const gonderiyiBegen = (gonderiID) => {
     /*
