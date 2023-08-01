@@ -36,7 +36,10 @@ const App = () => {
 
     setGonderi(
       gonderiler.map((gonderi) => {
-        return gonderi.id === gonderiID ? gonderi.likes + 1 : gonderi;
+        if (gonderi.id === gonderiID) {
+          gonderi.likes++;
+        }
+        return gonderi;
       })
     );
   };
