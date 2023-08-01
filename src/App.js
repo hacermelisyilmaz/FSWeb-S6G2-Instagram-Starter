@@ -8,7 +8,7 @@
 import React, { useState } from "react";
 
 // Gönderiler (çoğul!) ve AramaÇubuğu bileşenlerini import edin, çünkü bunlar App bileşeni içinde kullanılacak
-import styleApp from "./App.css";
+import "./App.css";
 import Gonderiler from "./bilesenler/Gonderiler/Gonderiler.js";
 import AramaCubugu from "./bilesenler/AramaCubugu/AramaCubugu.js";
 // sahteVeri'yi import edin
