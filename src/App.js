@@ -8,8 +8,11 @@
 import React, { useState } from "react";
 
 // Gönderiler (çoğul!) ve AramaÇubuğu bileşenlerini import edin, çünkü bunlar App bileşeni içinde kullanılacak
+import styleApp from "./App.css";
+import Gonderiler from "./bilesenler/Gonderiler/Gonderiler.js";
+import AramaCubugu from "./bilesenler/AramaCubugu/AramaCubugu.js";
 // sahteVeri'yi import edin
-import "./App.css";
+import sahteVeri from "./sahte-veri.js";
 
 const App = () => {
   // Gönderi nesneleri dizisini tutmak için "gonderiler" adlı bir state oluşturun, **sahteVeri'yi yükleyin**.
